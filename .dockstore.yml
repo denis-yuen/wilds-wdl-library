@@ -503,7 +503,6 @@ tools:
         affiliation: Fred Hutch Cancer Center
         orcid: 0000-0003-4484-3336
     topic: "WDL module for tumor fraction estimation using ichorCNA"
-    topic: variant-calling
     enableAutoDois: true
     filters:
       branches:
@@ -525,7 +524,6 @@ tools:
         affiliation: Fred Hutch Cancer Center
         orcid: 0009-0002-2052-1084
     topic: "WDL module for translating alternative splicing events into protein sequences using JCAST"
-    topic: proteogenomics
     enableAutoDois: true
     filters:
       branches:
@@ -546,7 +544,7 @@ tools:
         affiliation: Fred Hutch Cancer Center
         orcid: 0009-0002-2052-1084
     topic: "WDL module for structural variant calling using Manta"
-    topic: variant-calling
+    
     enableAutoDois: true
     filters:
       branches:
@@ -567,7 +565,7 @@ tools:
         affiliation: Fred Hutch Cancer Center
         orcid: 0000-0003-4484-3336
     topic: "WDL module for de novo metagenome assembly using MEGAHIT"
-    topic: metagenomics
+    
     enableAutoDois: true
     filters:
       branches:
@@ -588,7 +586,7 @@ tools:
         affiliation: Fred Hutch Cancer Center
         orcid: 0009-0002-2052-1084
     topic: "WDL module for aggregating QC reports using MultiQC"
-    topic: quality-control
+    
     enableAutoDois: true
     filters:
       branches:
@@ -609,7 +607,7 @@ tools:
         affiliation: Fred Hutch Cancer Center
         orcid: 0009-0002-2052-1084
     topic: "WDL module for differential alternative splicing analysis using rMATS"
-    topic: rna-seq
+    
     enableAutoDois: true
     filters:
       branches:
@@ -631,7 +629,7 @@ tools:
         affiliation: Fred Hutch Cancer Center
         orcid: 0009-0002-2052-1084
     topic: "WDL module for RNA-seq quality control using RSeQC"
-    topic: quality-control
+    
     enableAutoDois: true
     filters:
       branches:
@@ -653,7 +651,7 @@ tools:
         affiliation: Fred Hutch Cancer Center
         orcid: 0009-0002-2052-1084
     topic: "WDL module for RNA-seq quantification using Salmon"
-    topic: rna-seq
+    
     enableAutoDois: true
     filters:
       branches:
@@ -680,7 +678,7 @@ tools:
         affiliation: Fred Hutch Cancer Center
         orcid: 0009-0002-2052-1084
     topic: "WDL module for processing genomic files with Samtools"
-    topic: genomics
+    
     enableAutoDois: true
     filters:
       branches:
@@ -701,7 +699,7 @@ tools:
         affiliation: Fred Hutch Cancer Center
         orcid: 0009-0002-2052-1084
     topic: "WDL module for RNA structure probing analysis using ShapeMapper"
-    topic: rna-seq
+    
     enableAutoDois: true
     filters:
       branches:
@@ -722,7 +720,7 @@ tools:
         affiliation: Fred Hutch Cancer Center
         orcid: 0009-0009-0955-5954
     topic: "WDL module for calculating sunrise/sunset times and sun time differences for the SJL model"
-    topic: geospatial
+    
     enableAutoDois: true
     filters:
       branches:
@@ -743,7 +741,7 @@ tools:
         affiliation: Fred Hutch Cancer Center
         orcid: 0009-0002-2052-1084
     topic: "WDL module for structural variant calling using Smoove"
-    topic: variant-calling
+    
     enableAutoDois: true
     filters:
       branches:
@@ -764,7 +762,7 @@ tools:
         affiliation: Fred Hutch Cancer Center
         orcid: 0000-0003-4484-3336
     topic: "WDL module for sequence sketching and comparison using sourmash"
-    topic: metagenomics
+    
     enableAutoDois: true
     filters:
       branches:
@@ -785,7 +783,7 @@ tools:
         affiliation: Fred Hutch Cancer Center
         orcid: 0000-0003-4484-3336
     topic: "WDL module for de novo metagenomic assembly using metaSPAdes"
-    topic: metagenomics
+    
     enableAutoDois: true
     filters:
       branches:
@@ -827,7 +825,7 @@ tools:
         affiliation: Fred Hutch Cancer Center
         orcid: 0009-0002-2052-1084
     topic: "WDL module for RNA-seq alignment using STAR two-pass methodology"
-    topic: rna-seq
+    
     enableAutoDois: true
     filters:
       branches:
@@ -849,7 +847,7 @@ tools:
         affiliation: Fred Hutch Cancer Center
         orcid: 0009-0002-2052-1084
     topic: "WDL module for structural ensemble generation using STARLING"
-    topic: protein-structure
+    
     enableAutoDois: true
     filters:
       branches:
@@ -870,7 +868,7 @@ tools:
         affiliation: Fred Hutch Cancer Center
         orcid: 0009-0002-2052-1084
     topic: "WDL module for germline variant calling using Strelka"
-    topic: variant-calling
+    
     enableAutoDois: true
     filters:
       branches:
@@ -891,7 +889,7 @@ tools:
         affiliation: Fred Hutch Cancer Center
         orcid: 0009-0002-2052-1084
     topic: "WDL module for adapter and quality trimming using Trim Galore"
-    topic: quality-control
+    
     enableAutoDois: true
     filters:
       branches:
@@ -911,7 +909,7 @@ tools:
         role: Data Science Trainer
         affiliation: Fred Hutch Cancer Center
     topic: "WDL module for running TritonNP analysis"
-    topic: protein-structure
+    
     enableAutoDois: true
     filters:
       branches:
@@ -960,7 +958,7 @@ tools:
         affiliation: Fred Hutch Cancer Center
         orcid: 0000-0003-4484-3336
     topic: "WDL module for somatic variant calling using VarScan"
-    topic: variant-calling
+    
     enableAutoDois: true
     filters:
       branches:
@@ -988,7 +986,7 @@ workflows:
         affiliation: Fred Hutch Cancer Center
         orcid: 0000-0003-4484-3336
     topic: "WDL workflow to align sequencing data using BWA and perform QC steps with GATK"
-    topic: variant-calling
+    
     enableAutoDois: true
     filters:
       branches:
@@ -1013,7 +1011,7 @@ workflows:
         affiliation: Fred Hutch Cancer Center
         orcid: 0009-0002-2052-1084
     topic: "WDL workflow to download raw sequencing data from ENA and align using STAR two-pass methodology"
-    topic: rna-seq
+    
     enableAutoDois: true
     filters:
       branches:
@@ -1113,7 +1111,7 @@ workflows:
         affiliation: Fred Hutch Cancer Center
         orcid: 0009-0009-0955-5954
     topic: "WDL pipeline to calculate sunrise/sunset times and sun time differences across an array of geographic tiles as part of the SJL model pipeline"
-    topic: geospatial
+    
     enableAutoDois: true
     filters:
       branches:
@@ -1147,7 +1145,7 @@ workflows:
         affiliation: Fred Hutch Cancer Center
         orcid: 0000-0001-6372-5170
     topic: "Consensus variant calling workflow for human panel/PCR-based targeted DNA sequencing with focus on leukemia analysis - Refactored with WILDS modules"
-    topic: variant-calling
+    
     enableAutoDois: true
     filters:
       branches:
@@ -1221,7 +1219,7 @@ workflows:
         affiliation: Fred Hutch Cancer Center
         orcid: 0000-0001-8220-8427
     topic: "WDL workflow to download raw sequencing data from SRA and quantify using Salmon quasi-mapping"
-    topic: rna-seq
+    
     enableAutoDois: true
     filters:
       branches:
@@ -1256,7 +1254,7 @@ workflows:
         affiliation: Fred Hutch Cancer Center
         orcid: 0000-0001-8220-8427
     topic: "WDL workflow to download raw sequencing data from SRA and align using STAR two-pass methodology"
-    topic: rna-seq
+    
     enableAutoDois: true
     filters:
       branches:
@@ -1281,7 +1279,7 @@ workflows:
         affiliation: Fred Hutch Cancer Center
         orcid: 0009-0002-2052-1084
     topic: "Batch ensemble generation pipeline that splits a large protein FASTA into chunks and processes them in parallel using STARLING"
-    topic: protein-structure
+    
     enableAutoDois: true
     filters:
       branches:
