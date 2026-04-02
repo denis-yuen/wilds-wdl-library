@@ -16,7 +16,6 @@ tools:
         affiliation: Fred Hutch Cancer Center
         orcid: 0009-0002-2052-1084
     topic: "WDL module for structural variant annotation using AnnotSV"
-    topic: variant-calling
     enableAutoDois: true
     filters:
       branches:
