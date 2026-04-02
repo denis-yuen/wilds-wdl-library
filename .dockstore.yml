@@ -16,14 +16,6 @@ tools:
         affiliation: Fred Hutch Cancer Center
         orcid: 0009-0002-2052-1084
     topic: "WDL module for structural variant annotation using AnnotSV"
-    filters:
-      branches:
-        - main
-      tags:
-        - genomics
-        - structural-variants
-        - annotation
-        - annotsv
 
   - name: ww-annovar
     subclass: WDL
@@ -36,10 +28,3 @@ tools:
         affiliation: Fred Hutch Cancer Center
         orcid: 0009-0002-2052-1084
     topic: "WDL module for variant annotation using Annovar"
-    filters:
-      branches:
-        - main
-      tags:
-        - genomics
-        - variant-annotation
-        - annovar
