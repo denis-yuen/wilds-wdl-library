@@ -804,7 +804,6 @@ tools:
         affiliation: Fred Hutch Cancer Center
         orcid: 0009-0002-2052-1084
     topic: "WDL module for downloading sequencing data from the Sequence Read Archive"
-    topic: data-transfer
     enableAutoDois: true
     filters:
       branches:
@@ -938,7 +937,6 @@ tools:
         role: Data Science Trainer
         affiliation: Fred Hutch Cancer Center
     topic: "WDL module for downloading and provisioning test data used across WILDS WDL module and pipeline test runs"
-    topic: testing
     enableAutoDois: true
     filters:
       branches:
