@@ -15,7 +15,7 @@ tools:
         role: Research Informatics Data Scientist
         affiliation: Fred Hutch Cancer Center
         orcid: 0009-0002-2052-1084
-    description: "WDL module for structural variant annotation using AnnotSV"
+    topic: "WDL module for structural variant annotation using AnnotSV"
     topic: variant-calling
     enableAutoDois: true
     filters:
@@ -37,8 +37,7 @@ tools:
         role: Research Informatics Data Scientist
         affiliation: Fred Hutch Cancer Center
         orcid: 0009-0002-2052-1084
-    description: "WDL module for variant annotation using Annovar"
-    topic: variant-calling
+    topic: "WDL module for variant annotation using Annovar"
     enableAutoDois: true
     filters:
       branches:
@@ -58,8 +57,7 @@ tools:
         role: Research Informatics Data Scientist
         affiliation: Fred Hutch Cancer Center
         orcid: 0009-0002-2052-1084
-    description: "WDL module for downloading files from S3 using AWS SSO authentication"
-    topic: data-transfer
+    topic: "WDL module for downloading files from S3 using AWS SSO authentication"
     enableAutoDois: true
     filters:
       branches:
@@ -79,8 +77,7 @@ tools:
         role: Research Informatics Data Scientist
         affiliation: Fred Hutch Cancer Center
         orcid: 0009-0002-2052-1084
-    description: "WDL module for variant calling and VCF manipulation using bcftools"
-    topic: variant-calling
+    topic: "WDL module for variant calling and VCF manipulation using bcftools"
     enableAutoDois: true
     filters:
       branches:
@@ -100,8 +97,7 @@ tools:
         role: Research Informatics Data Scientist
         affiliation: Fred Hutch Cancer Center
         orcid: 0009-0002-2052-1084
-    description: "WDL module for converting GTF annotation files to BED12 format using bedparse"
-    topic: genomics
+    topic: "WDL module for converting GTF annotation files to BED12 format using bedparse"
     enableAutoDois: true
     filters:
       branches:
@@ -121,8 +117,7 @@ tools:
         role: Research Informatics Data Scientist
         affiliation: Fred Hutch Cancer Center
         orcid: 0000-0003-4484-3336
-    description: "WDL module for BAM coverage analysis using BEDTools"
-    topic: genomics
+    topic: "WDL module for BAM coverage analysis using BEDTools"
     enableAutoDois: true
     filters:
       branches:
@@ -142,8 +137,7 @@ tools:
         role: Research Informatics Data Scientist
         affiliation: Fred Hutch Cancer Center
         orcid: 0009-0002-2052-1084
-    description: "WDL module for building Bowtie index files and aligning reads"
-    topic: alignment
+    topic: "WDL module for building Bowtie index files and aligning reads"
     enableAutoDois: true
     filters:
       branches:
@@ -163,8 +157,7 @@ tools:
         role: Research Informatics Data Scientist
         affiliation: Fred Hutch Cancer Center
         orcid: 0009-0002-2052-1084
-    description: "WDL module for building Bowtie 2 index files and aligning reads"
-    topic: alignment
+    topic: "WDL module for building Bowtie 2 index files and aligning reads"
     enableAutoDois: true
     filters:
       branches:
@@ -184,8 +177,7 @@ tools:
         role: Research Informatics Data Scientist
         affiliation: Fred Hutch Cancer Center
         orcid: 0000-0003-4484-3336
-    description: "WDL module for building BWA index files and aligning reads"
-    topic: alignment
+    topic: "WDL module for building BWA index files and aligning reads"
     enableAutoDois: true
     filters:
       branches:
@@ -205,8 +197,7 @@ tools:
         role: Research Informatics Data Scientist
         affiliation: Fred Hutch Cancer Center
         orcid: 0000-0003-4484-3336
-    description: "WDL module for single-cell gene expression analysis using Cell Ranger"
-    topic: single-cell
+    topic: "WDL module for single-cell gene expression analysis using Cell Ranger"
     enableAutoDois: true
     filters:
       branches:
@@ -226,8 +217,7 @@ tools:
         role: Research Informatics Data Scientist
         affiliation: Fred Hutch Cancer Center
         orcid: 0009-0002-2052-1084
-    description: "WDL module for copy number variant detection using CNVkit"
-    topic: variant-calling
+    topic: "WDL module for copy number variant detection using CNVkit"
     enableAutoDois: true
     filters:
       branches:
@@ -247,8 +237,7 @@ tools:
         role: Research Informatics Data Scientist
         affiliation: Fred Hutch Cancer Center
         orcid: 0009-0002-2052-1084
-    description: "WDL module for protein structure prediction using ColabFold/AlphaFold2"
-    topic: protein-structure
+    topic: "WDL module for protein structure prediction using ColabFold/AlphaFold2"
     enableAutoDois: true
     filters:
       branches:
@@ -268,8 +257,7 @@ tools:
         role: Research Informatics Data Scientist
         affiliation: Fred Hutch Cancer Center
         orcid: 0009-0002-2052-1084
-    description: "WDL module for generating consensus variant calls from multiple variant callers"
-    topic: variant-calling
+    topic: "WDL module for generating consensus variant calls from multiple variant callers"
     enableAutoDois: true
     filters:
       branches:
@@ -289,8 +277,7 @@ tools:
         role: Research Informatics Data Scientist
         affiliation: Fred Hutch Cancer Center
         orcid: 0009-0002-2052-1084
-    description: "WDL module for generating normalized coverage tracks using deepTools"
-    topic: genomics
+    topic: "WDL module for generating normalized coverage tracks using deepTools"
     enableAutoDois: true
     filters:
       branches:
@@ -310,8 +297,7 @@ tools:
         role: Research Informatics Data Scientist
         affiliation: Fred Hutch Cancer Center
         orcid: 0009-0002-2052-1084
-    description: "WDL module for germline variant calling using DeepVariant"
-    topic: variant-calling
+    topic: "WDL module for germline variant calling using DeepVariant"
     enableAutoDois: true
     filters:
       branches:
@@ -331,8 +317,7 @@ tools:
         role: Research Informatics Data Scientist
         affiliation: Fred Hutch Cancer Center
         orcid: 0009-0002-2052-1084
-    description: "WDL module for structural variant calling using Delly"
-    topic: variant-calling
+    topic: "WDL module for structural variant calling using Delly"
     enableAutoDois: true
     filters:
       branches:
@@ -352,8 +337,7 @@ tools:
         role: Research Informatics Data Scientist
         affiliation: Fred Hutch Cancer Center
         orcid: 0009-0002-2052-1084
-    description: "WDL module for differential expression analysis using DESeq2"
-    topic: differential-expression
+    topic: "WDL module for differential expression analysis using DESeq2"
     enableAutoDois: true
     filters:
       branches:
@@ -374,8 +358,7 @@ tools:
         role: Research Informatics Data Scientist
         affiliation: Fred Hutch Cancer Center
         orcid: 0000-0003-4484-3336
-    description: "WDL module for sequence alignment using DIAMOND"
-    topic: alignment
+    topic: "WDL module for sequence alignment using DIAMOND"
     enableAutoDois: true
     filters:
       branches:
@@ -395,8 +378,7 @@ tools:
         role: Research Informatics Data Scientist
         affiliation: Fred Hutch Cancer Center
         orcid: 0009-0002-2052-1084
-    description: "WDL module for downloading sequencing data from the European Nucleotide Archive"
-    topic: data-transfer
+    topic: "WDL module for downloading sequencing data from the European Nucleotide Archive"
     enableAutoDois: true
     filters:
       branches:
@@ -416,8 +398,7 @@ tools:
         role: Research Informatics Data Scientist
         affiliation: Fred Hutch Cancer Center
         orcid: 0009-0002-2052-1084
-    description: "WDL module for FASTQ quality filtering and adapter trimming using fastp"
-    topic: quality-control
+    topic: "WDL module for FASTQ quality filtering and adapter trimming using fastp"
     enableAutoDois: true
     filters:
       branches:
@@ -437,8 +418,7 @@ tools:
         role: Research Informatics Data Scientist
         affiliation: Fred Hutch Cancer Center
         orcid: 0009-0002-2052-1084
-    description: "WDL module for FASTQ quality control analysis using FastQC"
-    topic: quality-control
+    topic: "WDL module for FASTQ quality control analysis using FastQC"
     enableAutoDois: true
     filters:
       branches:
@@ -463,8 +443,7 @@ tools:
         role: Research Informatics Data Scientist
         affiliation: Fred Hutch Cancer Center
         orcid: 0000-0003-4484-3336
-    description: "WDL module for variant calling and genome preprocessing using GATK"
-    topic: variant-calling
+    topic: "WDL module for variant calling and genome preprocessing using GATK"
     enableAutoDois: true
     filters:
       branches:
@@ -484,8 +463,7 @@ tools:
         role: Research Informatics Data Scientist
         affiliation: Fred Hutch Cancer Center
         orcid: 0009-0002-2052-1084
-    description: "WDL module for downloading files from the Genomic Data Commons"
-    topic: data-transfer
+    topic: "WDL module for downloading files from the Genomic Data Commons"
     enableAutoDois: true
     filters:
       branches:
@@ -505,8 +483,7 @@ tools:
         role: Research Informatics Data Scientist
         affiliation: Fred Hutch Cancer Center
         orcid: 0009-0002-2052-1084
-    description: "WDL module for genotype imputation using GLIMPSE2"
-    topic: imputation
+    topic: "WDL module for genotype imputation using GLIMPSE2"
     enableAutoDois: true
     filters:
       branches:
@@ -526,7 +503,7 @@ tools:
         role: Research Informatics Data Scientist
         affiliation: Fred Hutch Cancer Center
         orcid: 0000-0003-4484-3336
-    description: "WDL module for tumor fraction estimation using ichorCNA"
+    topic: "WDL module for tumor fraction estimation using ichorCNA"
     topic: variant-calling
     enableAutoDois: true
     filters:
@@ -548,7 +525,7 @@ tools:
         role: Research Informatics Data Scientist
         affiliation: Fred Hutch Cancer Center
         orcid: 0009-0002-2052-1084
-    description: "WDL module for translating alternative splicing events into protein sequences using JCAST"
+    topic: "WDL module for translating alternative splicing events into protein sequences using JCAST"
     topic: proteogenomics
     enableAutoDois: true
     filters:
@@ -569,7 +546,7 @@ tools:
         role: Research Informatics Data Scientist
         affiliation: Fred Hutch Cancer Center
         orcid: 0009-0002-2052-1084
-    description: "WDL module for structural variant calling using Manta"
+    topic: "WDL module for structural variant calling using Manta"
     topic: variant-calling
     enableAutoDois: true
     filters:
@@ -590,7 +567,7 @@ tools:
         role: Research Informatics Data Scientist
         affiliation: Fred Hutch Cancer Center
         orcid: 0000-0003-4484-3336
-    description: "WDL module for de novo metagenome assembly using MEGAHIT"
+    topic: "WDL module for de novo metagenome assembly using MEGAHIT"
     topic: metagenomics
     enableAutoDois: true
     filters:
@@ -611,7 +588,7 @@ tools:
         role: Research Informatics Data Scientist
         affiliation: Fred Hutch Cancer Center
         orcid: 0009-0002-2052-1084
-    description: "WDL module for aggregating QC reports using MultiQC"
+    topic: "WDL module for aggregating QC reports using MultiQC"
     topic: quality-control
     enableAutoDois: true
     filters:
@@ -632,7 +609,7 @@ tools:
         role: Research Informatics Data Scientist
         affiliation: Fred Hutch Cancer Center
         orcid: 0009-0002-2052-1084
-    description: "WDL module for differential alternative splicing analysis using rMATS"
+    topic: "WDL module for differential alternative splicing analysis using rMATS"
     topic: rna-seq
     enableAutoDois: true
     filters:
@@ -654,7 +631,7 @@ tools:
         role: Research Informatics Data Scientist
         affiliation: Fred Hutch Cancer Center
         orcid: 0009-0002-2052-1084
-    description: "WDL module for RNA-seq quality control using RSeQC"
+    topic: "WDL module for RNA-seq quality control using RSeQC"
     topic: quality-control
     enableAutoDois: true
     filters:
@@ -676,7 +653,7 @@ tools:
         role: Research Informatics Data Scientist
         affiliation: Fred Hutch Cancer Center
         orcid: 0009-0002-2052-1084
-    description: "WDL module for RNA-seq quantification using Salmon"
+    topic: "WDL module for RNA-seq quantification using Salmon"
     topic: rna-seq
     enableAutoDois: true
     filters:
@@ -703,7 +680,7 @@ tools:
         role: Research Informatics Data Scientist
         affiliation: Fred Hutch Cancer Center
         orcid: 0009-0002-2052-1084
-    description: "WDL module for processing genomic files with Samtools"
+    topic: "WDL module for processing genomic files with Samtools"
     topic: genomics
     enableAutoDois: true
     filters:
@@ -724,7 +701,7 @@ tools:
         role: Research Informatics Data Scientist
         affiliation: Fred Hutch Cancer Center
         orcid: 0009-0002-2052-1084
-    description: "WDL module for RNA structure probing analysis using ShapeMapper"
+    topic: "WDL module for RNA structure probing analysis using ShapeMapper"
     topic: rna-seq
     enableAutoDois: true
     filters:
@@ -745,7 +722,7 @@ tools:
         role: Research Assistant
         affiliation: Fred Hutch Cancer Center
         orcid: 0009-0009-0955-5954
-    description: "WDL module for calculating sunrise/sunset times and sun time differences for the SJL model"
+    topic: "WDL module for calculating sunrise/sunset times and sun time differences for the SJL model"
     topic: geospatial
     enableAutoDois: true
     filters:
@@ -766,7 +743,7 @@ tools:
         role: Research Informatics Data Scientist
         affiliation: Fred Hutch Cancer Center
         orcid: 0009-0002-2052-1084
-    description: "WDL module for structural variant calling using Smoove"
+    topic: "WDL module for structural variant calling using Smoove"
     topic: variant-calling
     enableAutoDois: true
     filters:
@@ -787,7 +764,7 @@ tools:
         role: Research Informatics Data Scientist
         affiliation: Fred Hutch Cancer Center
         orcid: 0000-0003-4484-3336
-    description: "WDL module for sequence sketching and comparison using sourmash"
+    topic: "WDL module for sequence sketching and comparison using sourmash"
     topic: metagenomics
     enableAutoDois: true
     filters:
@@ -808,7 +785,7 @@ tools:
         role: Research Informatics Data Scientist
         affiliation: Fred Hutch Cancer Center
         orcid: 0000-0003-4484-3336
-    description: "WDL module for de novo metagenomic assembly using metaSPAdes"
+    topic: "WDL module for de novo metagenomic assembly using metaSPAdes"
     topic: metagenomics
     enableAutoDois: true
     filters:
@@ -829,7 +806,7 @@ tools:
         role: Research Informatics Data Scientist
         affiliation: Fred Hutch Cancer Center
         orcid: 0009-0002-2052-1084
-    description: "WDL module for downloading sequencing data from the Sequence Read Archive"
+    topic: "WDL module for downloading sequencing data from the Sequence Read Archive"
     topic: data-transfer
     enableAutoDois: true
     filters:
@@ -850,7 +827,7 @@ tools:
         role: Research Informatics Data Scientist
         affiliation: Fred Hutch Cancer Center
         orcid: 0009-0002-2052-1084
-    description: "WDL module for RNA-seq alignment using STAR two-pass methodology"
+    topic: "WDL module for RNA-seq alignment using STAR two-pass methodology"
     topic: rna-seq
     enableAutoDois: true
     filters:
@@ -872,7 +849,7 @@ tools:
         role: Research Informatics Data Scientist
         affiliation: Fred Hutch Cancer Center
         orcid: 0009-0002-2052-1084
-    description: "WDL module for structural ensemble generation using STARLING"
+    topic: "WDL module for structural ensemble generation using STARLING"
     topic: protein-structure
     enableAutoDois: true
     filters:
@@ -893,7 +870,7 @@ tools:
         role: Research Informatics Data Scientist
         affiliation: Fred Hutch Cancer Center
         orcid: 0009-0002-2052-1084
-    description: "WDL module for germline variant calling using Strelka"
+    topic: "WDL module for germline variant calling using Strelka"
     topic: variant-calling
     enableAutoDois: true
     filters:
@@ -914,7 +891,7 @@ tools:
         role: Research Informatics Data Scientist
         affiliation: Fred Hutch Cancer Center
         orcid: 0009-0002-2052-1084
-    description: "WDL module for adapter and quality trimming using Trim Galore"
+    topic: "WDL module for adapter and quality trimming using Trim Galore"
     topic: quality-control
     enableAutoDois: true
     filters:
@@ -934,7 +911,7 @@ tools:
         email: clo2@fredhutch.org
         role: Data Science Trainer
         affiliation: Fred Hutch Cancer Center
-    description: "WDL module for running TritonNP analysis"
+    topic: "WDL module for running TritonNP analysis"
     topic: protein-structure
     enableAutoDois: true
     filters:
@@ -963,7 +940,7 @@ tools:
         email: clo2@fredhutch.org
         role: Data Science Trainer
         affiliation: Fred Hutch Cancer Center
-    description: "WDL module for downloading and provisioning test data used across WILDS WDL module and pipeline test runs"
+    topic: "WDL module for downloading and provisioning test data used across WILDS WDL module and pipeline test runs"
     topic: testing
     enableAutoDois: true
     filters:
@@ -983,7 +960,7 @@ tools:
         role: Research Informatics Data Scientist
         affiliation: Fred Hutch Cancer Center
         orcid: 0000-0003-4484-3336
-    description: "WDL module for somatic variant calling using VarScan"
+    topic: "WDL module for somatic variant calling using VarScan"
     topic: variant-calling
     enableAutoDois: true
     filters:
@@ -1011,7 +988,7 @@ workflows:
         role: Research Informatics Data Scientist
         affiliation: Fred Hutch Cancer Center
         orcid: 0000-0003-4484-3336
-    description: "WDL workflow to align sequencing data using BWA and perform QC steps with GATK"
+    topic: "WDL workflow to align sequencing data using BWA and perform QC steps with GATK"
     topic: variant-calling
     enableAutoDois: true
     filters:
@@ -1036,7 +1013,7 @@ workflows:
         role: Research Informatics Data Scientist
         affiliation: Fred Hutch Cancer Center
         orcid: 0009-0002-2052-1084
-    description: "WDL workflow to download raw sequencing data from ENA and align using STAR two-pass methodology"
+    topic: "WDL workflow to download raw sequencing data from ENA and align using STAR two-pass methodology"
     topic: rna-seq
     enableAutoDois: true
     filters:
@@ -1066,7 +1043,7 @@ workflows:
         role: Research Informatics Data Scientist
         affiliation: Fred Hutch Cancer Center
         orcid: 0000-0003-4484-3336
-    description: "Convert paired FASTQ files to unmapped CRAM format using WILDS WDL modules"
+    topic: "Convert paired FASTQ files to unmapped CRAM format using WILDS WDL modules"
     topic: alignment
     enableAutoDois: true
     filters:
@@ -1101,7 +1078,7 @@ workflows:
         role: Research Associate
         affiliation: Fred Hutch Cancer Center
         orcid: 0009-0005-2936-2405
-    description: "WDL workflow for genotype imputation from low-coverage WGS data using GLIMPSE2. Processes CRAM/BAM files against a reference panel to produce imputed VCF files."
+    topic: "WDL workflow for genotype imputation from low-coverage WGS data using GLIMPSE2. Processes CRAM/BAM files against a reference panel to produce imputed VCF files."
     topic: imputation
     enableAutoDois: true
     filters:
@@ -1136,7 +1113,7 @@ workflows:
         role: Research Assistant
         affiliation: Fred Hutch Cancer Center
         orcid: 0009-0009-0955-5954
-    description: "WDL pipeline to calculate sunrise/sunset times and sun time differences across an array of geographic tiles as part of the SJL model pipeline"
+    topic: "WDL pipeline to calculate sunrise/sunset times and sun time differences across an array of geographic tiles as part of the SJL model pipeline"
     topic: geospatial
     enableAutoDois: true
     filters:
@@ -1170,7 +1147,7 @@ workflows:
         role: Staff Scientist
         affiliation: Fred Hutch Cancer Center
         orcid: 0000-0001-6372-5170
-    description: "Consensus variant calling workflow for human panel/PCR-based targeted DNA sequencing with focus on leukemia analysis - Refactored with WILDS modules"
+    topic: "Consensus variant calling workflow for human panel/PCR-based targeted DNA sequencing with focus on leukemia analysis - Refactored with WILDS modules"
     topic: variant-calling
     enableAutoDois: true
     filters:
@@ -1204,7 +1181,7 @@ workflows:
         email: sobrien2@fredhutch.org
         role: Post-Doctoral Research Fellow
         affiliation: Fred Hutch Cancer Center
-    description: "WDL workflow to analyze saturation mutagenesis data using BWA alignment and GATK AnalyzeSaturationMutagenesis"
+    topic: "WDL workflow to analyze saturation mutagenesis data using BWA alignment and GATK AnalyzeSaturationMutagenesis"
     topic: saturation-mutagenesis
     enableAutoDois: true
     filters:
@@ -1244,7 +1221,7 @@ workflows:
         role: Staff Scientist
         affiliation: Fred Hutch Cancer Center
         orcid: 0000-0001-8220-8427
-    description: "WDL workflow to download raw sequencing data from SRA and quantify using Salmon quasi-mapping"
+    topic: "WDL workflow to download raw sequencing data from SRA and quantify using Salmon quasi-mapping"
     topic: rna-seq
     enableAutoDois: true
     filters:
@@ -1279,7 +1256,7 @@ workflows:
         role: Staff Scientist
         affiliation: Fred Hutch Cancer Center
         orcid: 0000-0001-8220-8427
-    description: "WDL workflow to download raw sequencing data from SRA and align using STAR two-pass methodology"
+    topic: "WDL workflow to download raw sequencing data from SRA and align using STAR two-pass methodology"
     topic: rna-seq
     enableAutoDois: true
     filters:
@@ -1304,7 +1281,7 @@ workflows:
         role: Research Informatics Data Scientist
         affiliation: Fred Hutch Cancer Center
         orcid: 0009-0002-2052-1084
-    description: "Batch ensemble generation pipeline that splits a large protein FASTA into chunks and processes them in parallel using STARLING"
+    topic: "Batch ensemble generation pipeline that splits a large protein FASTA into chunks and processes them in parallel using STARLING"
     topic: protein-structure
     enableAutoDois: true
     filters:
@@ -1337,7 +1314,7 @@ workflows:
         email: ebouvet@fredhutch.org
         role: Research Technician
         affiliation: Fred Hutch Cancer Center
-    description: "WDL workflow for RNA-seq alignment via STAR and DESeq2 differential expression analysis"
+    topic: "WDL workflow for RNA-seq alignment via STAR and DESeq2 differential expression analysis"
     topic: differential-expression
     enableAutoDois: true
     filters:
@@ -1362,7 +1339,7 @@ workflows:
         role: Research Informatics Data Scientist
         affiliation: Fred Hutch Cancer Center
         orcid: 0009-0002-2052-1084
-    description: "WDL pipeline for alternative splicing proteomics: STAR alignment, rMATS differential splicing detection, and JCAST protein sequence translation"
+    topic: "WDL pipeline for alternative splicing proteomics: STAR alignment, rMATS differential splicing detection, and JCAST protein sequence translation"
     topic: proteogenomics
     enableAutoDois: true
     filters:
