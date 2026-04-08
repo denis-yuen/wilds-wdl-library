@@ -28,3 +28,37 @@ tools:
         affiliation: Fred Hutch Cancer Center
         orcid: 0009-0002-2052-1084
     topic: "WDL module for variant annotation using Annovar"
+
+
+workflows:
+  # =============================================================================
+  # PIPELINES - Complete analysis workflows combining multiple modules
+  # =============================================================================
+
+  - name: ww-bwa-gatk
+    subclass: WDL
+    primaryDescriptorPath: /pipelines/ww-bwa-gatk/ww-bwa-gatk.wdl
+    readMePath: /pipelines/ww-bwa-gatk/README.md
+    testParameterFiles:
+      - /pipelines/ww-bwa-gatk/inputs.json
+    authors:
+      - name: Emma Bishop
+        email: ebishop@fredhutch.org
+        role: Research Informatics Data Scientist
+        affiliation: Fred Hutch Cancer Center
+        orcid: 0000-0003-4484-3336
+    topic: WDL workflow to align sequencing data using BWA and perform QC steps with GATK
+
+  - name: ww-ena-star
+    subclass: WDL
+    primaryDescriptorPath: /pipelines/ww-ena-star/ww-ena-star.wdl
+    readMePath: /pipelines/ww-ena-star/README.md
+    testParameterFiles:
+      - /pipelines/ww-ena-star/inputs.json
+    authors:
+      - name: Taylor Firman
+        email: tfirman@fredhutch.org
+        role: Research Informatics Data Scientist
+        affiliation: Fred Hutch Cancer Center
+        orcid: 0009-0002-2052-1084
+    topic: WDL workflow to download raw sequencing data from ENA and align using STAR two-pass methodolog
