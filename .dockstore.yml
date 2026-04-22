@@ -343,7 +343,7 @@ tools:
 
   - name: ww-gatk
     subclass: WDL
-    primaryDescriptorPath: /modules/ww-gatk/ww-gatk.wdl
+    primaryDescriptorPath: /modules/ww-gatk/testrun.wdl
     readMePath: /modules/ww-gatk/README.md
     authors:
       - name: Taylor Firman
