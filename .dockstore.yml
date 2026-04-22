@@ -341,27 +341,6 @@ tools:
       branches:
         - main
 
-  - name: ww-gatk
-    subclass: WDL
-    primaryDescriptorPath: /modules/ww-gatk/testrun.wdl
-    readMePath: /modules/ww-gatk/README.md
-    authors:
-      - name: Taylor Firman
-        email: tfirman@fredhutch.org
-        role: Research Informatics Data Scientist
-        affiliation: Fred Hutch Cancer Center
-        orcid: 0009-0002-2052-1084
-      - name: Emma Bishop
-        email: ebishop@fredhutch.org
-        role: Research Informatics Data Scientist
-        affiliation: Fred Hutch Cancer Center
-        orcid: 0000-0003-4484-3336
-    topic: WDL module for variant calling and genome preprocessing using GATK
-    enableAutoDois: true
-    filters:
-      branches:
-        - main
-
   - name: ww-gdc
     subclass: WDL
     primaryDescriptorPath: /modules/ww-gdc/ww-gdc.wdl
@@ -1054,6 +1033,27 @@ workflows:
         affiliation: Fred Hutch Cancer Center
         orcid: 0009-0002-2052-1084
     topic: WDL pipeline for alternative splicing proteomics with STAR alignment, rMATS splicing, and JCAST translation
+    enableAutoDois: true
+    filters:
+      branches:
+        - main
+
+  - name: ww-gatk
+    subclass: WDL
+    primaryDescriptorPath: /modules/ww-gatk/testrun.wdl
+    readMePath: /modules/ww-gatk/README.md
+    authors:
+      - name: Taylor Firman
+        email: tfirman@fredhutch.org
+        role: Research Informatics Data Scientist
+        affiliation: Fred Hutch Cancer Center
+        orcid: 0009-0002-2052-1084
+      - name: Emma Bishop
+        email: ebishop@fredhutch.org
+        role: Research Informatics Data Scientist
+        affiliation: Fred Hutch Cancer Center
+        orcid: 0000-0003-4484-3336
+    topic: WDL module for variant calling and genome preprocessing using GATK
     enableAutoDois: true
     filters:
       branches:
